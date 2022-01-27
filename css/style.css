@@ -2,23 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
-section{
-    display: flex;
+body{
+    background-image: url("../img/bg_001.jpg");
 }
-section img{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    
-}
+
+
 header{
     
     width: 100vw;
     height: 10vh;
-    position: absolute;
-    top: 0;
-    left: 0;
+    
     display: flex;
     justify-content: center;
     margin: 4rem 0rem;
@@ -26,9 +21,7 @@ header{
 }
 header img{
     width: 10rem;
-    height: 5rem;
-    
-    
+    height: 5rem;  
 }
 header nav{
 margin-left: 20rem;
@@ -38,4 +31,22 @@ header nav a{
     font-size: 1rem;
     margin: 0rem 1rem;
     text-decoration: none;
+    font-weight: bold;
+}
+/* ................................ main ........................... */
+
+.imgs img:nth-child(1){
+    width: 17rem;
+    height: 35rem;
+    position: absolute;
+    top: 12rem;
+    left: 58rem;
+}
+.imgs img:nth-child(2){
+    width: 17rem;
+    height: 35rem;
+    position: absolute;
+    
+    top: 13rem;
+    left: 50rem;
 }
