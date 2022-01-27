@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+header{
+    border: 3px red solid;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header img{
+    position: absolute;
+    width: 12rem;
+    height: 5rem;
+    top: 0;
+    left: 0;
+    
+}
