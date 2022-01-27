@@ -37,48 +37,62 @@ header nav a{
 }
 /* ................................ main ........................... */
 .main-container{
-    border: 1px red solid;
+    
     display: flex;
     justify-content: space-around;
 }
-
-
-.images {
-    position: relative;
+.texts{
+    height: fit-content;
+    width: 35rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 20rem;
+}
+.texts p:nth-child(1){
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.links{
+    margin:3rem 1.5rem;
+}
+.links a{
+    text-decoration: none;
+    color: white;
     
-    width: 30vw;
-    height: 70vh;
-    left: 70rem;
+    padding:1rem 2rem ;
+    margin: 0rem 1rem;
+    border-radius: 0.5rem;
+}
+.links a:nth-child(1){
+    background-color: green;
+}
+.links a:nth-child(2){
+    background-color: rgb(0, 102, 255);
+}
+
+
+/* .................... imgs ................ */
+.images{
+  
+    position: relative;
+    width: 25rem;
+    height: 40rem;
+    right: 14rem;
+}
+.images img{
+    width: 17rem;
+    height: 36rem;
+   
+    
 }
 .images img:nth-child(1){
-    width: 17rem;
-    height: 35rem;
     position: absolute;
-    /* top: 12rem;
-    left: 58rem; */
-    left: 8rem;
+    top: 0;
+    right: 0;
 }
 .images img:nth-child(2){
-    width: 17rem;
-    height: 35rem;
     position: absolute;
     top: 2rem;
-    
-    /* top: 13rem;
-    left: 50rem; */
-}
-/* ...................... aside ..................... */
-article{
-    display: flex;
-    color: white;
-    border: 2px red solid;
-    width: 30vw;
-    height: 30vh;
-    flex-direction: column;
-    position: absolute;
-    bottom: 30rem;
-    font-size: 1rem;
-}
-aside p:nth-child(1){
-    font-size: 3rem;
+    left: 0;
 }
