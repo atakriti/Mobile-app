@@ -13,26 +13,29 @@ section img{
     
 }
 header{
-    border: 4px red solid;
+    
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 4rem 0rem;
+    align-items: center;
 }
 header img{
     width: 10rem;
     height: 5rem;
     
+    
 }
 header nav{
-
+margin-left: 20rem;
 }
 header nav a{
     color: white;
-    font-size: 1.5rem;
-    margin: 0px;
+    font-size: 1rem;
+    margin: 0rem 1rem;
+    text-decoration: none;
 }
